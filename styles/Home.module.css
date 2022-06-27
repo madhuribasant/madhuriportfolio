@@ -1,0 +1,65 @@
+.main{
+  @apply snap-y scroll-pt-40 overflow-y-auto ;
+}
+
+.nav{
+  @apply flex justify-between md:p-8 p-4 backdrop-blur-lg bg-white/30 backdrop-brightness-150  fixed top-0 w-screen font-poppins z-30;
+}
+
+.nav >h1{
+  @apply font-semibold  text-2xl;
+}
+
+.nav > ul{
+  @apply flex flex-col items-start;
+}
+.nav > ul > li >a{
+  @apply font-semibold md:text-lg text-sm;
+}
+
+.hero_section{
+  @apply flex flex-col items-center justify-center h-screen snap-start text-slate-50 bg-black font-poppins;
+}
+
+.hero_section >span >img{
+  @apply  grayscale lg:object-cover md:object-cover object-contain;
+}
+
+.hero_section >h2{
+  @apply text-slate-400 font-light md:text-5xl text-3xl translate-y-8 ; 
+}
+
+.hero_section > h1{
+  @apply font-extrabold  md:text-[20rem] text-[15rem];
+}
+
+.hero_image{
+  @apply relative w-5/6 h-5/6;
+}
+
+.hero_image > span >img{
+  @apply grayscale;
+}
+
+.client , .services {
+  @apply flex flex-col h-full snap-start font-poppins md:p-8 p-4 ;
+}
+
+.client > h1 , .services > h1{
+  @apply font-bold text-3xl mb-10;
+}
+
+.card_content {
+  @apply flex md:gap-8 gap-4 justify-center flex-wrap w-[100%]  ;
+}
+.client_card_content {
+  @apply flex lg:gap-8  gap-4 lg:justify-evenly md:justify-center justify-around  flex-wrap w-[100%]  ;
+}
+
+.header{
+  @apply flex justify-center fixed  w-screen py-6 z-30 backdrop-blur-2xl bg-white bg-opacity-50 
+  border-b border-b-gray-50 top-0  gap-4;
+}
+.header > h1{
+  @apply font-semibold font-poppins text-3xl;
+}
