@@ -221,17 +221,17 @@ export const clientcontent=[
   {
     cid:6,
     name:'pogo',
-    image:'/client/pogo/image1.jpg'
+    image:'/client/pogo/image1.jpg '
   },
   {
     cid:6,
     name:'pogo',
-    image:'/client/pogo/image2.jpg'
+    image:'/client/pogo/image2.jpg '
   },
   {
     cid:6,
     name:'pogo',
-    image:'/client/pogo/image3.jpg'
+    image:'/client/pogo/image3.jpg '
   },
   {
     cid:6,
@@ -241,17 +241,17 @@ export const clientcontent=[
   {
     cid:7,
     name:'prints',
-    image:'/client/prints/print1.png'
+    image:'/client/prints/print1.png '
   },
   {
     cid:7,
     name:'prints',
-    image:'/client/prints/print2.png'
+    image:'/client/prints/print2.png '
   },
   {
     cid:7,
     name:'prints',
-    image:'/client/prints/print3.png'
+    image:'/client/prints/print3.png '
   },
   {
     cid:8,
